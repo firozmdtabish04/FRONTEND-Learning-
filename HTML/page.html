@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="/CSS/style.css" />
+</head>
+
+<body>
+
+    <!-- Back -->
+    <div class="back">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span>Back to Home</span>
+    </div>
+
+    <!-- Main Card -->
+    <section class="container">
+
+        <!-- Left Panel -->
+        <div class="left">
+            <h2 class="logo">
+                <i class="fa-solid fa-heart"></i>
+                MediCare Hospital
+            </h2>
+
+            <h3>Welcome Back</h3>
+            <p class="text">
+                Access your dashboard to manage appointments, view
+                medical records, and connect with healthcare professionals.
+            </p>
+
+            <div class="demo">
+                <strong>Demo Credentials:</strong>
+                <p>Admin: admin@hospital.com / admin123</p>
+                <p>Doctor: doctor@hospital.com / doctor123</p>
+                <p>Staff: staff@hospital.com / staff123</p>
+                <p>Patient: patient@hospital.com / patient123</p>
+            </div>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="right">
+            <h2>Sign In</h2>
+            <p class="subtitle">Select your role and enter your credentials</p>
+
+            <div class="roles">
+                <button>Admin</button>
+                <button>Doctor</button>
+                <button>Staff</button>
+                <button>Patient</button>
+            </div>
+
+            <form>
+                <label>Email Address</label>
+                <div class="input-box">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="email" placeholder="Enter your email" />
+                </div>
+
+                <label>Password</label>
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Enter your password" />
+                </div>
+
+                <button class="signin">Sign In</button>
+                <a href="#" class="forgot">Forgot your password?</a>
+            </form>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
